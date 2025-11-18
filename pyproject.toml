@@ -1,0 +1,25 @@
+[project]
+name = "code-review"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "Riccardo ten Cate", email = "r.tencate77@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.14"
+
+datasets = ">=4.4.1,<5.0.0"
+pyyaml = ">=6.0.3,<7.0.0"
+
+axolotl = { git = "https://github.com/axolotl-ai-cloud/axolotl.git", develop = false }
+openai = "^2.8.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
