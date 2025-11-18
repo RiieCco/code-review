@@ -118,7 +118,7 @@ max_steps: -1
 # ============================================================
 gradient_checkpointing: true
 bf16: true
-flash_attention: true
+flash_attention: false
 
 # ============================================================
 # Output
